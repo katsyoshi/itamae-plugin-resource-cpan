@@ -9,20 +9,21 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'itamae-plugin-resource-cpan'
+gem 'itamae-plugin-resource-cpan', github: 'katsyoshi/itamae-plugin-resource-cpan'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install itamae-plugin-resource-cpan
-
 ## Usage
 
-TODO: Write usage instructions here
+add your recipe file:
+
+```
+require 'itamae/plugin/resource/cpan'
+cpan "Plack"
+```
 
 ## Development
 
@@ -32,5 +33,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/itamae-plugin-resource-cpan. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/katsyoshi/itamae-plugin-resource-cpan. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
