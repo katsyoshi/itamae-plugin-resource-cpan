@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "itamae-plugin-resource-cpan"
-  spec.version       = Itamae::Plugin::Resource::Cpan::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["MATSUMOTO, Katsuyoshi"]
   spec.email         = ["github@katsyoshi.org"]
 
